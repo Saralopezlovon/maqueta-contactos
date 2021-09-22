@@ -1,0 +1,140 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #5B9EED;
+    margin-top: 15px;
+}
+
+.container{
+    width: 400px;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 2%;
+}
+
+li{
+    list-style: none;
+    
+}
+
+.name{
+    color:#555555;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size:16px;
+    margin-bottom: 3px;
+}
+
+.description{    
+    color:#b1afaf;
+    font-size:14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+
+}
+
+
+/* SECTION 1 */
+
+.section1{
+    
+    display:flex;
+    align-content: space-around;
+    padding: 15px;
+    margin-left:10px;
+    margin-right: 10px;
+    display:flex;
+    align-items: center;
+    border-bottom: 1px solid #b9b9b9c4;
+}
+
+.img-fary{
+    
+    width: 100px;
+    border-radius:50%;
+}
+
+.contact-section1{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+/* SECTION 2 */
+
+.section2{
+    
+    display:flex;
+    align-content: space-around;
+    padding: 15px;
+    margin-left:10px;
+    margin-right: 10px;
+    align-items: center;
+    border-bottom: 1px solid #b9b9b9c4;
+}
+
+.img-manolo{
+    
+    width: 100px;
+    border-radius:50%;
+}
+
+.contact-section2{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+/* SECTION 3 */
+
+.section3{
+    
+    display:flex;
+    align-content: space-around;
+    padding: 15px;
+    margin-left:10px;
+    margin-right: 10px;
+    align-items: center; 
+    border-bottom: 1px solid #b9b9b9c4;
+}
+
+.img-rocio{
+    
+    width: 100px;
+    border-radius:50%;
+}
+
+.contact-section3{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+/* SECTION 4 */
+
+.section4{
+    
+    display:flex;
+    align-content: space-around;
+    padding: 15px;
+    margin-left:10px;
+    margin-right: 10px;
+    align-items: center;
+    border-bottom: 1px solid #b9b9b9c4;
+}
+
+
+.img-lola{
+    
+    width: 100px;
+    height:100px;
+    border-radius:50%;
+}
+
+.contact-section4{
+    
+    display: flex;
+    flex-direction: column;
+}
